@@ -21,7 +21,7 @@ const lerp = (n1, n2, speed) => (1 - speed) * n1 + speed * n2;
 const particleCount = 500;
 const particlePropCount = 9;
 const particlePropsLength = particleCount * particlePropCount;
-const rangeY = 100;
+const rangeY = 200;
 const baseTTL = 50;
 const rangeTTL = 150;
 const baseSpeed = 0.025;
